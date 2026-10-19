@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crucigrama | Estratificación social</title>
+<style>
+:root{
+  --ink:#172b3a; --muted:#5c6d78; --paper:#fbfaf7; --teal:#0d766e;
+  --mint:#d8eee7; --gold:#e7b85c; --line:#dce4e4; --white:#fff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:var(--ink);color:white;padding:42px 22px 34px;position:relative;overflow:hidden}
+header:after{content:"";position:absolute;width:230px;height:230px;border:1px solid #ffffff30;border-radius:50%;right:-55px;top:-95px;box-shadow:0 0 0 24px #ffffff0a,0 0 0 48px #ffffff08}
+.topline{font-size:.75rem;text-transform:uppercase;letter-spacing:.18em;color:#b8d8d2;font-weight:700}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:clamp(2rem,5vw,3.5rem);line-height:1.04;max-width:760px;margin:14px 0}
+header p{max-width:640px;color:#d6e1e5;line-height:1.6;margin:0}
+.wrap{max-width:1120px;margin:-1px auto 0;padding:28px 20px 44px}
+.info{display:grid;grid-template-columns:1.4fr 1fr;gap:16px;margin-bottom:20px}
+.card{background:white;border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 8px 24px #172b3a08}
+.kicker{font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:var(--teal);font-weight:800;margin-bottom:8px}
+.card h2{font-size:1.1rem;margin:0 0 8px}
+.card p{margin:0;color:var(--muted);line-height:1.55;font-size:.94rem}
+.pill{display:inline-flex;align-items:center;gap:7px;background:var(--mint);color:#14584f;border-radius:999px;padding:7px 11px;font-size:.8rem;font-weight:700;margin-top:14px}
+.game-card{padding:14px}
+.game-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 8px 16px}
+.game-head h2{margin:0;font-size:1.15rem}
+.game-head span{font-size:.8rem;color:var(--muted)}
+.frame{overflow:hidden;border:1px solid var(--line);border-radius:12px;background:white}
+iframe{display:block;width:100%;height:720px;border:0;background:white}
+.direct{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap;margin-top:16px;padding:16px 18px;border-radius:14px;background:#f0f6f4}
+.direct p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.45}
+a.button{background:var(--teal);color:white;text-decoration:none;padding:11px 16px;border-radius:10px;font-weight:700;font-size:.9rem;white-space:nowrap}
+footer{padding:22px;text-align:center;color:var(--muted);font-size:.8rem}
+@media(max-width:700px){header{padding:32px 20px}.info{grid-template-columns:1fr}.wrap{padding:18px 12px 30px}.card{padding:17px}.game-head{align-items:flex-start;flex-direction:column}iframe{height:700px}.direct{align-items:flex-start}a.button{width:100%;text-align:center}}
+</style>
+</head>
+<body>
+<header>
+  <div class="topline">Introducción a la Sociología · Actividad</div>
+  <h1>La estratificación<br>social</h1>
+  <p>Crucigrama interactivo para repasar los conceptos, sistemas históricos y tipos de movilidad social estudiados en clase.</p>
+</header>
+<main class="wrap">
+  <section class="info">
+    <div class="card">
+      <div class="kicker">Objetivo</div>
+      <h2>Comprueba lo que aprendiste</h2>
+      <p>Lee las pistas del juego y completa las palabras relacionadas con la organización de la sociedad, el estatus, las clases sociales y la movilidad.</p>
+      <span class="pill">✦ Aprende jugando</span>
+    </div>
+    <div class="card">
+      <div class="kicker">Instrucciones</div>
+      <h2>¿Cómo jugar?</h2>
+      <p>Selecciona una pista, escribe la respuesta en las casillas y revisa el resultado al terminar. Necesitas conexión a internet para cargar Educaplay.</p>
+    </div>
+  </section>
+  <section class="card game-card">
+    <div class="game-head">
+      <h2>Resuelve el crucigrama</h2>
+      <span>Actividad interactiva · Educaplay</span>
+    </div>
+    <div class="frame">
+      <iframe
+        src="https://es.educaplay.com/juego/31133256-crucigrama_la_estratificacion_social.html"
+        title="Crucigrama: La estratificación social"
+        allow="fullscreen; autoplay; allow-top-navigation-by-user-activation"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </div>
+    <div class="direct">
+      <p><strong>¿No aparece el juego?</strong><br>Ábrelo directamente en Educaplay.</p>
+      <a class="button" href="https://es.educaplay.com/juego/31133256-crucigrama_la_estratificacion_social.html" target="_blank" rel="noopener noreferrer">Abrir crucigrama ↗</a>
+    </div>
+  </section>
+</main>
+<footer>Actividad académica · Estratificación social</footer>
+</body>
+</html>
